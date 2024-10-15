@@ -1,0 +1,18 @@
+[package]
+name = "vortex"
+version = "1.0.0"
+authors = []
+upgrade_policy = "compatible"
+
+[addresses]
+dev = "0xeeb189559fcc9643306f2cf2b408834678889a095a4a888a2c0c15704e0e56fe"
+amos = "0xeeb189559fcc9643306f2cf2b408834678889a095a4a888a2c0c15704e0e56fe"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
